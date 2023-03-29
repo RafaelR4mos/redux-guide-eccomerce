@@ -8,7 +8,7 @@ import Cart from "../cart/index";
 // Styles
 import * as Styles from "./styles";
 
-import { loginUser, logoutUser } from "../../redux/user/actions";
+import { loginUser, logoutUser } from "../../redux/user/slice";
 import { selectProductsCount } from "../../redux/cart/cart.selectors";
 
 function Header() {
